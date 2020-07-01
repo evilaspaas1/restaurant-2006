@@ -56,7 +56,7 @@ class RestaurantTest < Minitest::Test
     assert_equal false, restaurant2.open_for_lunch?
   end
 
-  def test_it_can_add_dishes_in_all_caps
+  def test_it_can_list_dishes_in_all_caps
     restaurant1 = Restaurant.new('10:00', 'Fuel Cafe')
     restaurant2 = Restaurant.new('16:00', 'Il Posto')
 
