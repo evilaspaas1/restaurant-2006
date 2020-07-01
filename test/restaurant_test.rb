@@ -48,7 +48,7 @@ class RestaurantTest < Minitest::Test
   end
 
   def test_it_is_open_for_lunch
-    skip
+    
     restaurant1 = Restaurant.new('10:00', 'Fuel Cafe')
     restaurant2 = Restaurant.new('16:00', 'Il Posto')
 
